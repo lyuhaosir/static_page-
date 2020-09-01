@@ -12,7 +12,7 @@
 <body>
     <div class="fyh_wraper">
         <div class="fyh_wrap">
-            <div class="fyh_box">
+            <!-- <div class="fyh_box">
                 <div class="fyh_qing">
                     <p class="fyh_title">
                         <span> <a href="">朗朗口腔集团官网</a> </span>
@@ -33,10 +33,21 @@
                         <li class="shou1"><a href="index.html">首页</a></li>
                     </ul>
                     <div class="sho1">
-                            1
+                        1
                     </div>
                     <div class="sho2">
-                        2
+                        <ul>
+                            <li>
+                                郎朗介绍
+                            </li>
+                            <li>
+                                郎朗优势
+                            </li>
+                            <li>
+                                团队合作
+                            </li>
+                            <li>郎朗历程</li>
+                        </ul>
                     </div>
                     <div class="sho3">
                         3
@@ -59,7 +70,35 @@
                     <li class="fyh_fimg"><img src="./img/banner.jpg" alt=""></li>
                 </ol>
 
-            </div>
+            </div> -->
+            <!-- 头部 -->
+    <div class="head_box">
+        <div class="head_box_left"><a href="./index.html"><img src="./img/OutserLogo.jpg" alt=""></a></div>
+        <div class="head_box_right">
+            <div class="head_box_top"> <a href="">朗朗集团口腔官网</a> &ensp;| &ensp;<a href="">0755-86566573</a> &ensp;|&ensp; <span>中文</span></div>
+            <ul>
+                <li> <a href="./index.html">首页</a> </li>
+                <li><a href="./walkll.html">走进郎朗</a></li>
+                <li><a href="./public.html">资讯动态</a></li>
+                <li><a href="./hz.html">合作伙伴</a></li>
+                <li><a href="">辅助功能</a></li>
+                <li><a href="./lxwm.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 轮播图 -->
+    <div class="banner">
+        <img src="./img/banner.jpg" alt="">
+    </div>
+    <!-- 导航 -->
+    <!-- <div class="nav_box">
+        <div class="nav">
+            <ul>
+                <li> <a href="./hz.html">合作伙伴</a>  </li>
+                <li> <a href="./OutSer.html">门诊列表</a></li>
+            </ul>
+        </div>
+    </div> -->
             <div class="fyh_room">
                 <p class="lang">朗朗口腔</p>
                 <p class="he">呵护牙齿健康 创造美好未来 | CARE FOR TEETH TO CREATE A BETTER FUTURE</p>
@@ -253,7 +292,7 @@
 <script>
     var ul = document.getElementsByTagName('ol')[0];
     var li = document.getElementsByTagName('#fyh>li');
-    console.log(ul,li)
+    console.log(ul, li)
     var imgW = li.offsetWidth;
 
     // var timer = setInterval(move,10)
@@ -278,25 +317,28 @@
     // }
 
 
-$('.shou1').click(function () {
-  $('.sho1').slideToggle()
-})
-$('.shou2').click(function () {
-  $('.sho2').slideToggle()
-})
-$('.shou3').click(function () {
-  $('.sho3').slideToggle()
-})
-$('.shou4').click(function () {
-  $('.sho4').slideToggle()
-})
-$('.shou5').click(function () {
-  $('.sho5').slideToggle()
-})
-$('.shou6').click(function () {
-  $('.sho6').slideToggle()
-})
-        
+    $('.shou2').hover(function () {
+        // $('.sho1').slideToggle()
+        $('.sho2').show()
+    },function(){
+        $('.sho2').hide()
+    })
+    // $('.shou2').hover(function () {
+    //     $('.sho2').slideToggle()
+    // })
+    $('.shou3').hover(function () {
+        $('.sho3').slideToggle()
+    })
+    $('.shou4').hover(function () {
+        $('.sho4').slideToggle()
+    })
+    $('.shou5').hover(function () {
+        $('.sho5').slideToggle()
+    })
+    $('.shou6').hover(function () {
+        $('.sho6').slideToggle()
+    })
+
 
 
 </script>
