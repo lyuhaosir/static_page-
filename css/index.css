@@ -32,6 +32,7 @@ body {
 	width: 600px;
 	height: 124px;
 	float: right;
+	position: relative;
   }
   .head_box_top{
 	width: 600px;
@@ -153,23 +154,23 @@ body {
 	margin-right: 20px;
 }
 .sho1{
-	width: 114px;
-	height: 136px;
-	background-color: red;
-	display: none;
-	position: absolute;
-	right: 690px;
-	top: 120px;
-	z-index: 11;
-}
-.sho2{
-	width: 114px;
+	width: 100px;
 	height: 136px;
 	background-color: #fff;
 	display: none;
 	position: absolute;
-	right: 556px;
-	top: 120px;
+	right: 500px;
+	top: 108px;
+	z-index: 11;
+}
+.sho2{
+	width: 100px;
+	height: 136px;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	right: 400px;
+	top: 108px;
 	z-index: 11;
 }
 .sho2 ul li{
@@ -181,43 +182,45 @@ body {
 	background-color: #eeeeee;
 }
 .sho3{
-	width: 114px;
+	width: 100px;
+	background-color: #fff;
 	height: 136px;
-	background-color: red;
 	display: none;
 	position: absolute;
-	right: 422px;
-	top: 120px;
+	right: 300px;
+	top: 108px;
 	z-index: 11;
 }
 .sho4{
-	width: 114px;
+	width: 100px;
 	height: 136px;
-	background-color: red;
+	background-color: #fff;
+	
 	display: none;
 	position: absolute;
-	right: 288px;
-	top: 120px;
+	right: 200px;
+	top: 108px;
 	z-index: 11;
 }
 .sho5{
-	width: 114px;
+	width: 100px;
 	height: 136px;
-	background-color: red;
+	background-color: #fff;
+	
 	display: none;
 	position: absolute;
-	right: 154px;
-	top: 120px;
+	right: 100px;
+	top: 108px;
 	z-index: 11;
 }
 .sho6{
-	width: 114px;
+	width: 100px;
 	height: 136px;
-	background-color: red;
+	background-color: #fff;
 	display: none;
 	position: absolute;
-	right: 20px;
-	top: 120px;
+	right: 0px;
+	top: 108px;
 	z-index: 11;
 }
 .fyh_tu1 {

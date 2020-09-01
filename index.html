@@ -72,26 +72,66 @@
 
             </div> -->
             <!-- 头部 -->
-    <div class="head_box">
-        <div class="head_box_left"><a href="./index.html"><img src="./img/OutserLogo.jpg" alt=""></a></div>
-        <div class="head_box_right">
-            <div class="head_box_top"> <a href="">朗朗集团口腔官网</a> &ensp;| &ensp;<a href="">0755-86566573</a> &ensp;|&ensp; <span>中文</span></div>
-            <ul>
-                <li> <a href="./index.html">首页</a> </li>
-                <li><a href="./walkll.html">走进郎朗</a></li>
-                <li><a href="./public.html">资讯动态</a></li>
-                <li><a href="./hz.html">合作伙伴</a></li>
-                <li><a href="">辅助功能</a></li>
-                <li><a href="./lxwm.html">联系我们</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- 轮播图 -->
-    <div class="banner">
-        <img src="./img/banner.jpg" alt="">
-    </div>
-    <!-- 导航 -->
-    <!-- <div class="nav_box">
+            <div class="head_box">
+                <div class="head_box_left"><a href="./index.html"><img src="./img/OutserLogo.jpg" alt=""></a></div>
+                <div class="head_box_right">
+                    <div class="head_box_top"> <a href="">朗朗集团口腔官网</a> &ensp;| &ensp;<a href="">0755-86566573</a>
+                        &ensp;|&ensp; <span>中文</span></div>
+                    <ul>
+                        <li class="shou1"><a href="./index.html">首页</a> </li>
+                        <li class="shou2"><a href="./walkll.html">走进郎朗</a>
+                            <div class="sho2">
+                                <ul>
+                                    <li>
+                                        郎朗介绍
+                                    </li>
+                                    <li>
+                                        郎朗优势
+                                    </li>
+                                    <li>
+                                        团队合作
+                                    </li>
+                                    <li>郎朗历程</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="shou3"><a href="./hz.html">资讯动态</a>
+                            <div class="sho3">
+                                3
+                            </div>
+                        </li>
+                        <li class="shou4"><a href="./public.html">合作伙伴</a>
+
+                            <div class="sho4">
+                                4
+                            </div>
+                        </li>
+                        <li class="shou5"><a href="">辅助功能</a>
+                            <div class="sho5">
+                                5
+                            </div>
+                        </li>
+                        <li class="shou6"><a href="./lxwm.html">联系我们</a>
+                            <div class="sho6">
+                                6
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sho1">
+                        1
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- 轮播图 -->
+            <div class="banner">
+                <img src="./img/banner.jpg" alt="">
+            </div>
+            <!-- 导航 -->
+            <!-- <div class="nav_box">
         <div class="nav">
             <ul>
                 <li> <a href="./hz.html">合作伙伴</a>  </li>
@@ -290,17 +330,17 @@
 </body>
 <script src="./js/jquery.js"></script>
 <script>
-    var ul = document.getElementsByTagName('ol')[0];
-    var li = document.getElementsByTagName('#fyh>li');
-    console.log(ul, li)
-    var imgW = li.offsetWidth;
+    // var ul = document.getElementsByTagName('ol')[0];
+    // var li = document.getElementsByTagName('#fyh>li');
+    // console.log(ul, li)
+    // var imgW = li.offsetWidth;
 
     // var timer = setInterval(move,10)
 
-    console.log('图片的宽度', imgW)
+    // console.log('图片的宽度', imgW)
 
 
-    console.log(ul.offsetLeft)
+    // console.log(ul.offsetLeft)
 
     // function move() {
     //     var x = ul.offsetLeft;  // ul的当前位置
@@ -320,23 +360,35 @@
     $('.shou2').hover(function () {
         // $('.sho1').slideToggle()
         $('.sho2').show()
-    },function(){
+    }, function () {
         $('.sho2').hide()
     })
     // $('.shou2').hover(function () {
     //     $('.sho2').slideToggle()
     // })
     $('.shou3').hover(function () {
-        $('.sho3').slideToggle()
+        // $('.sho1').slideToggle()
+        $('.sho3').show()
+    }, function () {
+        $('.sho3').hide()
     })
     $('.shou4').hover(function () {
-        $('.sho4').slideToggle()
+        // $('.sho1').slideToggle()
+        $('.sho4').show()
+    }, function () {
+        $('.sho4').hide()
     })
     $('.shou5').hover(function () {
-        $('.sho5').slideToggle()
+        // $('.sho1').slideToggle()
+        $('.sho5').show()
+    }, function () {
+        $('.sho5').hide()
     })
     $('.shou6').hover(function () {
-        $('.sho6').slideToggle()
+        // $('.sho1').slideToggle()
+        $('.sho6').show()
+    }, function () {
+        $('.sho6').hide()
     })
 
 
