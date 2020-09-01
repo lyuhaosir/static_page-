@@ -3,21 +3,9 @@ body {
   margin: 0 auto;
   padding: 0 auto;
   font-size: 12px;
-
   height: 100%;
 }
 
-ul,
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #232323;
-}
-
-/* 头部 */
 /* 头部 */
 .head_box{
   width:  1200px ;

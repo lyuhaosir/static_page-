@@ -1,7 +1,14 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size:12px;
+}
 .head{
     width: 1920px;
     height: 124px;
 }
+
 
 .head_box{
     width:  1200px ;
