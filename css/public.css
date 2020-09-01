@@ -1,73 +1,97 @@
-复制代码
-        body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
-            margin: 0;
-            padding: 0;
-        }
+/* 复制代码 */
+body,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+form,
+input,
+textarea,
+th,
+td,
+select {
+    margin: 0;
+    padding: 0;
+}
 
-        * {
-            box-sizing: border-box;
-        }
-        table{
-            border-collapse:collapse;
-        }
-        body {
-            font-family: "Microsoft YaHei";
-        }
+* {
+    box-sizing: border-box;
+}
 
-        ul, li {
-            list-style: none;
-        }
+table {
+    border-collapse: collapse;
+}
 
-        a {
-            text-decoration: none;
-            color: #232323;
-        }
+body {
+    font-family: "Microsoft YaHei";
+}
 
-        input, textarea {
-            outline: none;
-            box-shadow: none;
-        }
+ul,
+li {
+    list-style: none;
+}
 
-        textarea {
-            resize: none;
-            overflow: auto;
-        }
+a {
+    text-decoration: none;
+    color: #232323;
+}
 
-        .clearfix {
-            zoom: 1;
-        }
+input,
+textarea {
+    outline: none;
+    box-shadow: none;
+}
 
-        .clearfix:after {
-            content: ".";
-            width: 0;
-            height: 0;
-            visibility: hidden;
-            display: block;
-            clear: both;
-        }
+textarea {
+    resize: none;
+    overflow: auto;
+}
 
-        .fl {
-            float: left
-        }
+.clearfix {
+    zoom: 1;
+}
 
-        .fr {
-            float: right
-        }
+.clearfix:after {
+    content: ".";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
 
-        .tl {
-            text-align: left;
-        }
+.fl {
+    float: left
+}
 
-        .tc {
-            text-align: center
-        }
+.fr {
+    float: right
+}
 
-        .tr {
-            text-align: right;
-        }
+.tl {
+    text-align: left;
+}
 
-        .ellipse {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
+.tc {
+    text-align: center
+}
+
+.tr {
+    text-align: right;
+}
+
+.ellipse {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
