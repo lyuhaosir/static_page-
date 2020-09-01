@@ -3,34 +3,6 @@
     height: 124px;
 }
 
-<<<<<<< HEAD
-.lefthead{
-    width: 961px;
-    height: 123px;
-    padding-left: 360px;
-    padding-top: 25px;
-    float: left;
-}
-.righthead{
-    width: 959px;
-    height: 123px;
-    font-size: 15;
-    line-height: 123px;
-    float: right;
-}
-.head1{
-    width: 1920px;
-    height: 229px;
-    
-}
-.head2{
-    width: 1920px;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 360px;
-    font-size: 10px;
-}
-=======
 .head_box{
     width:  1200px ;
     height: 124px;
@@ -109,7 +81,6 @@
     border-bottom: 2px solid #21b8c6;
 }
 
->>>>>>> c657f770053a97743a372580de488bf5dc8cd487
 .head3{
     width: 1920px;
     height: 1012px;
