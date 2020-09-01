@@ -1,31 +1,10 @@
-.head{
-    width: 1920px;
-    height: 124px;
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size:12px;
 }
-
-<<<<<<< HEAD
-.lefthead{
-    width: 961px;
-    height: 123px;
-    padding-left: 360px;
-    padding-top: 25px;
-    float: left;
-}
-.righthead{
-    width: 959px;
-    height: 123px;
-    font-size: 15;
-    line-height: 123px;
-    float: right;
-}
-.head2{
-    width: 1920px;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 360px;
-    font-size: 10px;
-}
-=======
+/* 头部 */
 .head_box{
     width:  1200px ;
     height: 124px;
@@ -98,113 +77,119 @@
     line-height: 48px;
     cursor: pointer;
 }
-.nav_box .nav ul li:nth-child(4){
+.nav_box .nav ul li:nth-child(2){
     color: #21b8c6;
     /* height: 50px; */
     border-bottom: 2px solid #21b8c6;
 }
 
->>>>>>> c657f770053a97743a372580de488bf5dc8cd487
-.box{
-    width: 1920px;
-    height: 2311px;
-    background: #f7f7f7;
-    position: relative;
+/* 主体 */
+section{
+    width:1200px;
+    height: 2250px;
+    margin:auto;
 }
-.box-box{
-    width: 1200px;
-    height: 2222px;
-    position: absolute;
-    left: 360px;
-    top: 93px;
-}
-.box1{
-    width: 1200px;
-    height: 416px;
-}
-.boxleft{
-    width: 600px;
-    height: 410px;
+section .sec_box .sec_box_left{
+    width: 85px;
+    height: 2250px;
+    float: left;
 }
 
-.boxright{
-    width: 652px;
-    height: 335px;
-    background: white;
-    position: absolute;
-    top: 73px;
-    left: 545px;
+
+section .sec_box .sec_box_center{
+    width: 1030px;
+    height: 2250px;
+    float: left;
 }
-.boxrights{
-    width: 599px;
-    height: 253px;
-    margin-top: 51px;
-    margin-left: 55px;
+/* 主体中间文字 */
+.center_header{
+    text-align: center;
+    padding-top: 85px;
+    border-bottom: 1px #a0a0a0 solid;
+    box-sizing: border-box;
 }
-.boxrights>h6{
+.center_header h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+.center_header p{
+    color: #a0a0a0;
+    line-height: 35px;
+}
+
+/* 文章 */
+.section{
+    width: 1030px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.section p{
+    line-height: 36px;
+}
+
+
+section .sec_box .sec_box_center img{
+    margin-top: 40px;
+}
+section .sec_box .sec_box_center h4{
+    height: 100px;
+    line-height: 140px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+section .sec_box .sec_box_right{
+    width: 85px;
+    height: 2250px;
+    float: left;
+}
+
+
+
+/* 底部导航 */
+.foot_nav{
+    width:1030px;
+    height: 39px;
+    border-top: 2px #ececec solid;
+    border-bottom: 2px #ececec solid;
+    line-height: 38px;
+    margin-top: 80px;
+}
+
+.foot_nav p:nth-child(1){
+    float: left;
+}
+.foot_nav p:nth-child(2){
+    float: right;
+}
+/* 底部分页 */
+
+.bottom_pages{
+    width: 1030px;
+    height: 120px;
+    padding-top: 70px;
+}
+
+.bottom_pages div{
+    width: 93px;
+    height: 32px;
+    border:1px solid #ececec;
+    margin: auto;
+    text-align: center;
+    line-height: 32px;
     color: gray;
 }
-.boxrights>ul>li{
-    width: 94px;
-    height: 31px;
-    text-align: center;
-    line-height: 31px;
-    border:1px solid gray;
-}
-.box2{
-    width: 1200px;
-    height: 413px;
-    padding-top: 100px;
-}
-.box2left{
-    width: 651px;
-    height: 334px;
-    background: white;
-    position: absolute;
-    top: 580px;
-}
-.box2right{
-    width: 599px;
-    height: 407px;
-    top: 50px;
-    float: right;
-}
-.box3{
-    width: 1200px;
-    height: 416px;
-    padding-top: 175px;
-}
-.box3left{
-    width: 600px;
-    height: 410px;
-}
-.box3right{
-    width: 652px;
-    height: 335px;
-    background: white;
-    position: absolute;
-    top: 1050px;
-    left: 545px;
+
+/* 底部 */
+
+footer{
+    width: 100%;
+    height: 345px;
+    background:#eaeaea ;
+    padding-top: 65px;
 }
 
-.box4{
-    width: 1200px;
-    height: 413px;
-    padding-top: 300px;
-}
-.box4left{
-    width: 651px;
-    height: 334px;
-    background: white;
-    position: absolute;
-    top: 1600px;
-}
-.box4right{
-    width: 599px;
-    height: 407px;
-    top: 50px;
-    float: right;
-}
 .foot_box{
     margin: 0 auto;
     width: 1200px;
