@@ -153,16 +153,7 @@ body {
 	/* padding: 2px; */
 	margin-right: 20px;
 }
-.sho1{
-	width: 100px;
-	height: 136px;
-	background-color: #fff;
-	display: none;
-	position: absolute;
-	right: 500px;
-	top: 108px;
-	z-index: 11;
-}
+
 .sho2{
 	width: 100px;
 	height: 136px;
@@ -171,6 +162,7 @@ body {
 	position: absolute;
 	right: 400px;
 	top: 108px;
+	color: #8d8d8d;
 	z-index: 11;
 }
 .sho2 ul li{
@@ -181,6 +173,30 @@ body {
 .sho2 ul li:hover{
 	background-color: #eeeeee;
 }
+.sho3 ul li{
+	/* margin-top: 14px; */
+	line-height: 34px;
+	text-align: center;
+}
+.sho3 ul li:hover{
+	background-color: #eeeeee;
+}
+.sho4 ul li{
+	/* margin-top: 14px; */
+	line-height: 34px;
+	text-align: center;
+}
+.sho4 ul li:hover{
+	background-color: #eeeeee;
+}
+.sho6 ul li{
+	/* margin-top: 14px; */
+	line-height: 34px;
+	text-align: center;
+}
+.sho6 ul li:hover{
+	background-color: #eeeeee;
+}
 .sho3{
 	width: 100px;
 	background-color: #fff;
@@ -189,17 +205,18 @@ body {
 	position: absolute;
 	right: 300px;
 	top: 108px;
+	color: #8d8d8d;
 	z-index: 11;
 }
 .sho4{
 	width: 100px;
-	height: 136px;
+	height: 36px;
 	background-color: #fff;
-	
 	display: none;
 	position: absolute;
 	right: 200px;
 	top: 108px;
+	color: #8d8d8d;
 	z-index: 11;
 }
 .sho5{
@@ -211,16 +228,18 @@ body {
 	position: absolute;
 	right: 100px;
 	top: 108px;
+	color: #8d8d8d;
 	z-index: 11;
 }
 .sho6{
 	width: 100px;
-	height: 136px;
+	height: 110px;
 	background-color: #fff;
 	display: none;
 	position: absolute;
 	right: 0px;
 	top: 108px;
+	color: #8d8d8d;
 	z-index: 11;
 }
 .fyh_tu1 {

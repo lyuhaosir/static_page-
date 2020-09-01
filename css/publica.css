@@ -27,6 +27,7 @@ body{
     width: 600px;
     height: 124px;
     float: right;
+	position: relative;
 }
 .head_box_top{
     width: 600px;
@@ -58,7 +59,94 @@ body{
     background: #f5f5f5;
     cursor: pointer;
 }
-
+.sho2{
+	width: 100px;
+	height: 136px;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	right: 400px;
+	top: 108px;
+	color: #8d8d8d;
+	z-index: 11;
+}
+.sho2 ul li{
+	/* margin-top: 14px; */
+	line-height: 34px;
+	text-align: center;
+}
+.sho2 ul li:hover{
+	background-color: #eeeeee;
+}
+.sho3 ul li{
+	/* margin-top: 14px; */
+	line-height: 34px;
+	text-align: center;
+}
+.sho3 ul li:hover{
+	background-color: #eeeeee;
+}
+.sho4 ul li{
+	/* margin-top: 14px; */
+	line-height: 34px;
+	text-align: center;
+}
+.sho4 ul li:hover{
+	background-color: #eeeeee;
+}
+.sho6 ul li{
+	/* margin-top: 14px; */
+	line-height: 34px;
+	text-align: center;
+}
+.sho6 ul li:hover{
+	background-color: #eeeeee;
+}
+.sho3{
+	width: 100px;
+	background-color: #fff;
+	height: 136px;
+	display: none;
+	position: absolute;
+	right: 300px;
+	top: 108px;
+	color: #8d8d8d;
+	z-index: 11;
+}
+.sho4{
+	width: 100px;
+	height: 36px;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	right: 200px;
+	top: 108px;
+	color: #8d8d8d;
+	z-index: 11;
+}
+.sho5{
+	width: 100px;
+	height: 136px;
+	background-color: #fff;
+	
+	display: none;
+	position: absolute;
+	right: 100px;
+	top: 108px;
+	color: #8d8d8d;
+	z-index: 11;
+}
+.sho6{
+	width: 100px;
+	height: 110px;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	right: 0px;
+	top: 108px;
+	color: #8d8d8d;
+	z-index: 11;
+}
 /* 导航 */
 .nav_box{
     width: 100% ;
