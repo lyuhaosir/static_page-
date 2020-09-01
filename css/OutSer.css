@@ -31,6 +31,12 @@ body{
     line-height: 54px;
     color:#a0a0a0;
 }
+
+.head_box_top a{
+    cursor: pointer;
+    color:#a0a0a0;
+}
+
 .head_box_right>ul{
     display: flex;
 }
@@ -40,8 +46,14 @@ body{
     /* background:#f5f5f5; */
     font-weight: bolder;
     line-height: 54px;
+    text-align: center;
 }
 
+
+.head_box_right>ul>li:hover{
+    background: #f5f5f5;
+    cursor: pointer;
+}
 
 /* 导航 */
 .nav_box{
@@ -64,6 +76,7 @@ body{
     height: 48px;
     text-align: center;
     line-height: 48px;
+    cursor: pointer;
 }
 .nav_box .nav ul li:nth-child(2){
     color: #21b8c6;

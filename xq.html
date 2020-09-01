@@ -4,290 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/xq.css">
     <title>Document</title>
-    <style>
-        body {
-            width: 100%;
-            margin: 0 auto;
-            padding: 0 auto;
-            font-size: 12px;
-
-            height: 100%;
-        }
-
-        ul,
-        li {
-            list-style: none;
-        }
-
-        a {
-            text-decoration: none;
-            color: #232323;
-        }
-
-        /* 头部 */
-        .head_box {
-            width: 1200px;
-            height: 120px;
-            /* background:yellow; */
-            margin: auto;
-        }
-
-        .head_box_left {
-            width: 600px;
-            height: 120px;
-            float: left;
-            /* padding-top: 20px; */
-        }
-
-        .head_box_right {
-            width: 600px;
-            height: 120px;
-            float: right;
-            /* margin: 0; */
-        }
-
-        .head_box_top {
-            width: 600px;
-            height: 54px;
-            text-align: center;
-            line-height: 54px;
-            color: #F0F0F0;
-        }
-
-        .head_box_right>ul {
-            display: flex;
-        }
-
-        .head_box_right>ul>li {
-            width: 115px;
-            height: 40px;
-            /* background:#f5f5f5; */
-            font-weight: bolder;
-            line-height: 40px;
-            /* padd-bottom: ; */
-        }
-
-        .banner {
-            width: 100%;
-            height: 229px;
-
-        }
-
-        /* 导航 */
-        .nav_box {
-            width: 100%;
-            height: 48px;
-            border-bottom: 2px solid #f1f1f1;
-        }
-
-        .nav_box .nav {
-            width: 1200px;
-            height: 48px;
-            margin: auto;
-        }
-
-        .nav_box .nav ul {
-            display: flex;
-        }
-
-        .nav_box .nav ul li {
-            width: 85px;
-            height: 48px;
-            text-align: center;
-            line-height: 48px;
-        }
-
-        .nav_box .nav ul li:nth-child(1) {
-            color: #21b8c6;
-            /* height: 50px; */
-            border-bottom: 2px solid #21b8c6;
-        }
-
-        /* 中间部分 */
-        .main {
-            width: 1200px;
-            /* height: 100%; */
-            background: yellow;
-            margin: auto;
-            /* float: left; */
-        }
-
-        .item {
-            width: 380px;
-            height: 400px;
-            /* background: red; */
-            float: left;
-            margin-left: 5px;
-        }
-
-        .img2 {
-            width: 350px;
-            height: 200px;
-        }
-
-        h3 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        h5 {
-            font-size: 13px;
-            color: #aeaeae;
-
-        }
-
-        .p2 {
-            border: 1px solid #aeaeae;
-            width: 90px;
-            height: 30px;
-            text-align: center;
-            line-height: 30px;
-            margin-left: 10px;
-        }
-
-        /* .shu{
-            width: 1200px;
-            height: 120px;
-            background: red;
-        } */
-        footer{
-    width: 100%;
-    height: 345px;
-    /* background:#eaeaea ; */
-    padding-top: 65px;
-}
-
-.foot_box{
-    margin: 0 auto;
-    width: 1200px;
-    height: 222px;
-}
-
-.foot_box_left{
-    width: 540px;
-    height: 222px;
-    float: left;
-}
-.foot_box_right{
-    width: 660px;
-    height: 222px;
-    float: left;
-}
-
-.foot_box_left h3{
-    font-size: 22px;
-    font-weight: 100;
-    color: #9f9f9f;
-}
-
-.foot_box_left .phone_site{
-    margin-top: 30px;
-    margin-bottom: 40px;
-    width: 460px;
-    height: 45px;
-}
-
-.foot_box_left .phone_site p{
-    color: #a0a0a0;
-}
-
-.foot_box_left .logo div{
-    width: 31px;
-    height: 31px;
-    border-radius: 50%;
-    background: #a0a0a0;
-    color: white;
-    text-align: center;
-    line-height: 31px;
-    float: left;
-    margin-right: 30px;
-}
-.foot_box_right ul{
-    float:left;
-    margin-right: 35px;
-}
-.foot_box_right ul li{
-    line-height: 25px;
-    color: #a0a0a0;
-}
-.foot_box_right ul li:nth-child(1){
-    font-weight: bolder;
-}
-
-.foot_box_right ul li:nth-child(2){
-    line-height: 22px;
-}
-
-.foot{
-    margin:auto;
-    border-top: 2px solid #a0a0a0;
-    width: 1200px;
-    height: 45px;
-    color: #a0a0a0;
-    line-height: 45px;
-}
-.foot_pages{
-    width: 1200px;
-    height: 100px;
-    margin: auto;
-    clear: both;
-    padding-top: 70px;;
-    /* background:red; */
-}
-.foot_pages ul{
-    width: 330px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.foot_pages ul li{
-    float: left;
-    width:35px;
-    height: 35px;
-    background:#f5f5f5;
-    color: #a0a0a0;
-    text-align: center;
-    line-height: 35px;
-}
-.foot_pages  ul li:nth-child(2) {
-            color:white;
-            /* height: 50px; */
-           background:#21b8c6 ;
-        }
-    </style>
 </head>
 
 <body>
     <!-- 头部 -->
+    <!-- 头部 -->
     <div class="head_box">
-        <div class="head_box_left"><img src="./img/xq/one.jpg" alt=""></div>
+        <div class="head_box_left"><a href="./index.html"><img src="./img/OutserLogo.jpg" alt=""></a></div>
         <div class="head_box_right">
-            <div class="head_box_top">朗朗集团口腔官网 | 0755-86566573 | <span>中文</span></div>
+            <div class="head_box_top"> <a href="">朗朗集团口腔官网</a> &ensp;| &ensp;<a href="">0755-86566573</a> &ensp;|&ensp; <span>中文</span></div>
             <ul>
-                <li>首页</li>
-                <li>走进郎朗</li>
-                <li>资讯动态</li>
-                <li>合作伙伴</li>
-                <li>辅助功能</li>
-                <li>联系我们</li>
+                <li> <a href="./index.html">首页</a> </li>
+                <li><a href="./walkll.html">走进郎朗</a></li>
+                <li><a href="./public.html">资讯动态</a></li>
+                <li><a href="./hz.html">合作伙伴</a></li>
+                <li><a href="">辅助功能</a></li>
+                <li><a href="./lxwm.html">联系我们</a></li>
             </ul>
         </div>
     </div>
-    <!--  -->
     <!-- 轮播图 -->
     <div class="banner">
-        <img src="./img/xq/002.jpg" alt="">
+        <img src="./img/banner.jpg" alt="">
     </div>
     <!-- 导航 -->
     <div class="nav_box">
         <div class="nav">
             <ul>
-                <li>行业动态</li>
-                <li>朗朗资讯</li>
-                <li>媒体报道</li>
-                <li>工艺活动</li>
+                <li><a href="./xq.html">行业动态</a></li>
+                <li><a href="./article.html">郎朗资讯</a></li>
+                <li><a href="">媒体报道</a></li>
+                <li><a href="./public.html">公益活动</a></li>
             </ul>
         </div>
     </div>

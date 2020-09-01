@@ -30,6 +30,12 @@ body{
     line-height: 54px;
     color:#a0a0a0;
 }
+
+.head_box_top a{
+    cursor: pointer;
+    color:#a0a0a0;
+}
+
 .head_box_right>ul{
     display: flex;
 }
@@ -39,8 +45,14 @@ body{
     /* background:#f5f5f5; */
     font-weight: bolder;
     line-height: 54px;
+    text-align: center;
 }
 
+
+.head_box_right>ul>li:hover{
+    background: #f5f5f5;
+    cursor: pointer;
+}
 
 /* 导航 */
 .nav_box{
@@ -63,8 +75,9 @@ body{
     height: 48px;
     text-align: center;
     line-height: 48px;
+    cursor: pointer;
 }
-.nav_box .nav ul li:nth-child(2){
+.nav_box .nav ul li:nth-child(1){
     color: #21b8c6;
     /* height: 50px; */
     border-bottom: 2px solid #21b8c6;
@@ -189,6 +202,10 @@ section .sec_box .sec_box_center{
     color: gray;
 }
 
+.bottom_pages div a{
+    cursor:pointer;
+}
+
 .bottom_pages ul{
     margin: auto;
     display: flex;
@@ -207,9 +224,10 @@ section .sec_box .sec_box_center{
     text-align: center;
     line-height: 35px;
 }
-.bottom_pages ul li:nth-child(2){
+.bottom_pages ul li:hover{
     background: #21b8c6;
-    color: white;;
+    color: white;
+    cursor:pointer;
 }
 
 /* 公交路线 */
