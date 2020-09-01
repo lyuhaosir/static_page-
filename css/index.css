@@ -155,6 +155,7 @@ body {
 
 .fyh_tu1 .fyh_fyh .fyh_fimg {
 	float: left;
+	overflow: hidden;
 }
 
 .fyh_room {

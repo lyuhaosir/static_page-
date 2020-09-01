@@ -65,7 +65,8 @@ body {
 }
 
 .fyh_tu1 img {
-	width: 100%;
+    width: 1920px;
+    margin:auto;
 	height: 510px;
 }
 .fyh_room{
@@ -261,7 +262,7 @@ footer{
 }
 
 .fyh_tu2 img {
-	width: 100%;
+	width: 1920px;
 	height: 375px;
 }
 .fyh_froom{
